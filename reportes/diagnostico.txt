@@ -1,0 +1,27 @@
+DIAGNÓSTICO DEL DATASET AMIE - MINEDUC
+
+1. El dataset histórico fue cargado correctamente desde un archivo Excel utilizando pandas y openpyxl.
+
+2. El dataset contiene 290310 registros y 104 columnas.
+
+3. Existen columnas numéricas con valores nulos, especialmente:
+   - Inicial_Est_edad_adec_nivel
+   - EGB_Est_edad_adec_nivel
+   - Bach_Est_edad_adec_nivel
+
+4. Las columnas geográficas identificadas son:
+   - Provincia
+   - Canton
+   - Parroquia
+
+5. Los principales tipos de sostenimiento encontrados son:
+   - Fiscal
+   - Particular
+   - Fiscomisional
+   - Municipal
+
+6. La mayor cantidad de instituciones pertenece al sostenimiento fiscal.
+
+7. El dataset contiene información histórica desde 2009 hasta 2024.
+
+8. Será necesario realizar limpieza de datos antes de cargar la información en SQLite.
